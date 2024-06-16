@@ -26,16 +26,16 @@ This project is a console-based Minesweeper game implemented in C++. It allows p
 To compile the project, you can use any C++ compiler like `g++` or an IDE like Visual Studio.
 
 Using `g++`, you can compile the project with the following command:
-\`\`\`sh
+```sh
 g++ -o minesweeper main.cpp board.cpp tile.cpp cursor.cpp highscores.cpp -lwinmm
-\`\`\`
+```
 
 ### Running the Game
 
 Once compiled, run the executable:
-\`\`\`sh
+```sh
 ./minesweeper
-\`\`\`
+```
 
 ### Controls
 
@@ -46,14 +46,14 @@ Once compiled, run the executable:
 
 ## Project Structure
 
-- \`main.cpp\`: Contains the main game loop and input handling.
-- \`board.h\` and \`board.cpp\`: Defines the \`board\` class, which handles game logic, board updates, and drawing.
-- \`tile.h\` and \`tile.cpp\`: Defines the \`Tile\` class, which represents each tile on the board.
-- \`cursor.h\` and \`cursor.cpp\`: Defines the \`Cursor\` class, which manages the cursor's position and movement.
-- \`highscores.h\` and \`highscores.cpp\`: Manages the high scores.
+- `main.cpp`: Contains the main game loop and input handling.
+- `board.h` and `board.cpp`: Defines the `board` class, which handles game logic, board updates, and drawing.
+- `tile.h` and `tile.cpp`: Defines the `Tile` class, which represents each tile on the board.
+- `cursor.h` and `cursor.cpp`: Defines the `Cursor` class, which manages the cursor's position and movement.
+- `highscores.h` and `highscores.cpp`: Manages the high scores.
 
-## Example \`main.cpp\`
-\`\`\`cpp
+### Example `main.cpp`
+```cpp
 #include <iostream>
 #include <iomanip>
 #include <vector>
@@ -106,10 +106,10 @@ int main()
         myBoard.gameOver(); //draws fully revealed map
     }
 }
-\`\`\`
+```
 
-## Example \`board.h\`
-\`\`\`cpp
+### Example `board.h`
+```cpp
 #ifndef BOARD_H
 #define BOARD_H
 
@@ -172,10 +172,10 @@ public:
     void c_update(int time, bool& game_running);
 };
 #endif
-\`\`\`
+```
 
-## Example \`cursor.h\`
-\`\`\`cpp
+### Example `cursor.h`
+```cpp
 #ifndef CURSOR_H
 #define CURSOR_H
 
@@ -203,10 +203,10 @@ public:
 };
 int Cursor::cursorPos = 0;
 #endif
-\`\`\`
+```
 
-## Example \`tile.h\`
-\`\`\`cpp
+### Example `tile.h`
+```cpp
 #ifndef TILE_H
 #define TILE_H
 #include "cursor.h"
@@ -255,16 +255,16 @@ public:
     char getTile() { return tileValue; }
 };
 #endif
-\`\`\`
+```
 
 ## Contributing
 
 We welcome contributions to enhance the Minesweeper game. To contribute, follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (\`git checkout -b feature-branch\`).
-3. Commit your changes (\`git commit -m 'Add new feature'\`).
-4. Push to the branch (\`git push origin feature-branch\`).
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
 ## Acknowledgments
@@ -273,4 +273,4 @@ We thank the community and our users for their support and feedback, which help 
 
 ## Authors
 
-This project was developed by Akhil Bhandari, Stanislav Dalgardno , and Kyle Caponio Driver.
+This project was developed by [Your Name], [Student 2's Name], and [Student 3's Name].
