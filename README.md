@@ -52,7 +52,7 @@ Once compiled, run the executable:
 - \`cursor.h\` and \`cursor.cpp\`: Defines the \`Cursor\` class, which manages the cursor's position and movement.
 - \`highscores.h\` and \`highscores.cpp\`: Manages the high scores.
 
-### Example \`main.cpp\`
+## Example \`main.cpp\`
 \`\`\`cpp
 #include <iostream>
 #include <iomanip>
@@ -108,7 +108,7 @@ int main()
 }
 \`\`\`
 
-### Example \`board.h\`
+## Example \`board.h\`
 \`\`\`cpp
 #ifndef BOARD_H
 #define BOARD_H
@@ -174,7 +174,7 @@ public:
 #endif
 \`\`\`
 
-### Example \`cursor.h\`
+## Example \`cursor.h\`
 \`\`\`cpp
 #ifndef CURSOR_H
 #define CURSOR_H
@@ -205,7 +205,7 @@ int Cursor::cursorPos = 0;
 #endif
 \`\`\`
 
-### Example \`tile.h\`
+## Example \`tile.h\`
 \`\`\`cpp
 #ifndef TILE_H
 #define TILE_H
