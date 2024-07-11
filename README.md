@@ -274,4 +274,4 @@ We thank the community and our users for their support and feedback, which help 
 
 ## Authors
 
-This project was developed by [Your Name], [Student 2's Name], and [Student 3's Name].
+This project was developed by Akhil Bhandari, Kyle Caponio Driver, and Stanislav Dalgardno.
