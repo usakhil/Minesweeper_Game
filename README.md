@@ -1,5 +1,6 @@
 
 # Minesweeper Game
+#![image](https://github.com/usakhil/Minesweeper_Game/assets/124474848/66b86cb6-fda3-4fa5-88e9-2660aaf5b9b5)   
 
 ## Project Overview
 
